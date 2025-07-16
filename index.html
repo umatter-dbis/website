@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U Matter - Mental Wellbeing | Don Bosco International School</title>
+    <link rel="icon" href="logo-circle.png" type="image/png" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/tools.css" />
+    <link rel="stylesheet" href="./styles/faqs.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <img src="logo1.png" alt="" />
+        </div>
+        <p class="loading-quote">
+          "Emotional balance is an indispensable life skill that transcends
+          academic achievement." - WHO
+        </p>
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div id="main-container" class="main-container">
+      <!-- Animated Background -->
+      <div class="background-gradients">
+        <div class="gradient-blob blob-1"></div>
+        <div class="gradient-blob blob-2"></div>
+        <div class="gradient-blob blob-3"></div>
+        <div class="gradient-blob blob-4"></div>
+        <div class="gradient-blob blob-5"></div>
+      </div>
+
+      <!-- DBIS Logo -->
+      <div class="logo-container dblogo-container ">
+        <img src="dbis-logo.png" class="dblogo" alt="Don Bosco International School Logo" />
+      </div>
+
+      <!-- Horizontal Scroll Container -->
+      <div class="horizontal-container" id="horizontal-container">
+        <!-- Page 1: Home -->
+        <section class="page scrollable" id="page-1">
+          <div class="page-content">
+            <div class="hero-section">
+              <div class="hero-title">
+                <img src="./logo.png" alt="U">
+                <h1>
+                  <span class="salus-text title-text">Matter</span>
+                </h1>
+              </div>
+              <p class="hero-subtitle">
+                A safe space for students to reflect, connect, and grow...
+              </p>
+              <div class="hero-description">
+                <p>
+                  Your mental health journey matters. We're here to support,
+                  guide, and empower every student towards a healthier, happier
+                  mindset.
+                </p>
+              </div>
+              <button class="glass-button primary-btn">
+                <span>Begin Your Journey</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Page 2: Learn -->
+        <section class="page scrollable" id="page-2">
+          <div class="page-content scrollable">
+            <div class="content-grid">
+              <div class="glass-card" data-card="stress-relief">
+                <div class="card-icon"></div>
+                <h3>7 Day Stress Relief Challenge</h3>
+                <p>
+                  An uplifting 7 day refresh to begin your mental health
+                  journey.
+                </p>
+              </div>
+              <div class="glass-card" data-card="self-care">
+                <div class="card-icon"></div>
+                <h3>Building a Personalized Self-care Routine</h3>
+                <p>
+                  A simple guide to help you identify and implement best
+                  practices, boosting your mental wellbeing.
+                </p>
+              </div>
+              <div class="glass-card" data-card="growth-mindset">
+                <div class="card-icon"></div>
+                <h3>Attaining a Growth Mindset</h3>
+                <p>
+                  Fostering resilience and personal growth through mindfulness,
+                  encourages you to see challenges as opportunities to learn
+                </p>
+              </div>
+              <div class="glass-card" data-card="time-management">
+                <div class="card-icon"></div>
+                <h3>The Ultimate Time-management Toolkit</h3>
+                <p>
+                  A comprehensive toolkit to help you manage your time
+                  effectively and reduce stress related to deadlines and
+                  responsibilities.
+                </p>
+              </div>
+              <div class="glass-card" data-card="social-anxiety">
+                <div class="card-icon"></div>
+                <h3>Overcoming Social Anxiety</h3>
+                <p>
+                  A set of strategies for one who experience social anxiety,
+                  offering practical tips for overcoming fear and gaining
+                  confidence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Page 3: Tools -->
+        <section class="page scrollable" id="page-3">
+          <div class="page-content scrollable">
+            <div class="resource-grid">
+              <div class="resource-section scrollable breathe glass-card">
+                <h3 class="resource-title">Breathe</h3>
+                <div class="resource-items">
+                  <div class="breathing-area">
+                    <div
+                      class="gradient-animation"
+                      id="gradientAnimation"
+                    ></div>
+                    <div class="timer-content">
+                      <div class="timer-display" id="timerDisplay">2:00</div>
+                      <div class="phase-text" id="phaseText">
+                        Choose your session length
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="controls-section">
+                    <button class="play-pause-btn" id="playPauseBtn">
+                      <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                      <div class="pause-icon"><i class="fa-solid fa-pause"></i></div>
+                    </button>
+
+                    <div class="presets scrollable">
+                      <button
+                        class="glass-button preset-btn resource-btn active"
+                        data-minutes="2"
+                      >
+                        2 <span>min</span>
+                      </button>
+                      <button
+                        class="glass-button preset-btn resource-btn"
+                        data-minutes="5"
+                      >
+                        5 <span>min</span>
+                      </button>
+                      <button
+                        class="glass-button preset-btn resource-btn"
+                        data-minutes="10"
+                      >
+                        10 <span>min</span>
+                      </button>
+                      <button
+                        class="glass-button preset-btn resource-btn"
+                        data-minutes="15"
+                      >
+                        15 <span>min</span>
+                      </button>
+                      <button
+                        class="glass-button preset-btn resource-btn"
+                        data-minutes="20"
+                      >
+                        20 <span>min</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="resource-section scrollable apps glass-card">
+                <h3 class="resource-title">Applications</h3>
+                <div class="resource-items scrollable">
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.calm.com/', '_blank')">
+                    <span>Calm</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://insighttimer.com/', '_blank')">
+                    <span>Insight Timer</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://happier.com/', '_blank')">
+                    <span>10% Happier</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.getmoodfit.com/', '_blank')">
+                    <span>Moodfit</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://sleepcycle.com/', '_blank')">
+                    <span>Sleep Cycle</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.breathwrk.com/', '_blank')">
+                    <span>Breathe</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://streaksapp.com/', '_blank')">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>Streaks</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://habitica.com/', '_blank')">
+                    <span>Habitica</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.headspace.com/', '_blank')">
+                    <span>Head Space</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://balanceapp.com/', '_blank')">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>Balance</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.howwefeelapp.com/', '_blank')">
+                    <i class="fa-brands fa-apple"></i>
+                    <span>HWF</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.smilingmind.com.au/', '_blank')">
+                    <span>Smiling Mind</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://daylio.webflow.io/', '_blank')">
+                    <span>Daylio</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.forestapp.cc/', '_blank')">
+                    <span>Forest</span>
+                  </button>
+                </div>
+              </div>
+              <div class="resource-section scrollable additional glass-card">
+                <h3 class="resource-title">Additional</h3>
+                <div class="resource-items">
+                  <button class="glass-button resource-btn" onclick="window.open('', '_blank')">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>Power of Yet</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('', '_blank')">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>The Self-Care...</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://mindful.org/', '_blank')">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>Mindful</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.youtube.com/watch?v=JsWcZtA9gYo', '_blank')">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>5 ways to...</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://teenshealth.org/', '_blank')">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>TeensHealth</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.mind.org.uk/information-support/for-children-and-young-people/', '_blank')">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>Mind</span>
+                  </button>
+                  <button class="glass-button resource-btn" onclick="window.open('https://www.youtube.com/watch?v=F2hc2FLOdhI', '_blank')">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>How to Pract...</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Page 4: Connect -->
+        <section class="page" id="page-4">
+          <!-- <div class="page-content">
+            <div class="help-options">
+              <div class="help-card glass-card large">
+                <h3>School Counselor</h3>
+                <p>
+                  Our trained school counselors are available for one-on-one
+                  sessions, group therapy, and crisis intervention.
+                </p>
+                <div class="help-details">
+                  <span>📞 Available: Mon-Fri, 8AM-5PM</span>
+                  <span>📧 counselor@dbis.edu</span>
+                </div>
+                <button class="glass-button">
+                  <span>Book Appointment</span>
+                </button>
+              </div>
+
+              <div class="help-card glass-card large">
+                <h3>External Therapists</h3>
+                <p>
+                  Access to a network of qualified external mental health
+                  professionals for specialized care.
+                </p>
+                <div class="help-details">
+                  <span>🏥 Partner Clinics Available</span>
+                  <span>💳 Insurance Accepted</span>
+                </div>
+                <button class="glass-button">
+                  <span>Find Therapist</span>
+                </button>
+              </div>
+            </div>
+          </div> -->
+          <div class="hero-section">
+            <h1 class="hero-title">
+              <span class="title-text ud">Under Development</span>
+            </h1>
+            <p class="hero-subtitle">
+              An accessible chat application for students to connect with
+              counselors...
+            </p>
+            <div class="hero-description">
+              <p class="udtext">
+                In the mean time, you could check out
+                Salus for a similar experience.
+              </p>
+              <button id="salus-btn" class="glass-button primary-btn" onclick="window.location.href ='https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/21/02/20250621021144-75RPYU45.json'; return false">Salus</button>
+            </div>
+          </div>
+          <!-- <iframe src="https://savion-flow.netlify.app/" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation allow-downloads"></iframe> -->
+          <!-- <div class="page-content"> -->
+            <!-- <iframe src="https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/21/02/20250621021144-75RPYU45.json" sandbox="allow-forms allow-modals allow-scripts"></iframe> -->
+             <!-- Put this on your page BEFORE the script below -->
+          <!-- <div id="webchat" style="width: 100%; height: 100%;"></div> -->
+          
+          <!-- In your <body> tag -->
+          <!-- <script>
+            window.botpress.on("webchat:ready", () => {
+              window.botpress.open();
+            });
+            window.botpress.init({
+            "botId": "42291027-a764-4ec6-bcab-d453fff64edd",
+            "configuration": {
+              "version": "v1",
+              "botName": "Salus",
+              "botAvatar": "https://files.bpcontent.cloud/2025/06/21/18/20250621182534-CO32EEB4.png",
+              "fabImage": "https://files.bpcontent.cloud/2025/06/21/18/20250621182534-CO32EEB4.png",
+              "website": {},
+              "email": {},
+              "phone": {},
+              "termsOfService": {},
+              "privacyPolicy": {},
+              "color": "#b7a700",
+              "variant": "solid",
+              "headerVariant": "glass",
+              "themeMode": "light",
+              "fontFamily": "inter",
+              "radius": 4,
+              "feedbackEnabled": false,
+              "footer": "[⚡ by Botpress](https://botpress.com/?from=webchat)"
+            },
+            "clientId": "35f1d260-dd8b-4ba9-aa4a-f88b35b39807",
+            "selector": "#webchat"
+          });
+          </script> -->
+  
+          <!-- </div> -->
+        </section>
+
+        <!-- Page 5: FAQ's -->
+        <section class="page scrollable" id="page-5">
+          <div class="page-content scrollable">
+            <!-- <div class="section-header">
+              <h2 class="section-title">Contact Us</h2>
+              <p class="section-subtitle">
+                We're here to listen and support you
+              </p>
+            </div>
+
+            <div class="contact-container">
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-details">
+                    <h4>Email Support</h4>
+                    <p>salus@dbis.edu</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">📞</div>
+                  <div class="contact-details">
+                    <h4>Phone Support</h4>
+                    <p>+91 98765 43210</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">🏫</div>
+                  <div class="contact-details">
+                    <h4>Visit Us</h4>
+                    <p>
+                      Don Bosco International School<br />Mental Wellness Center
+                    </p>
+                  </div>
+                </div>
+              </div> -->
+              <div class="resource-section scrollable">
+                  <h1 class="resource-title">FAQ's</h1>
+                  <div class="resource-items">
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">What should I do if I'm feeling overwhelmed by stress or anxiety?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Feeling overwhelmed is common, especially during stressful times. Start by taking a few deep breaths to calm your mind. Break down tasks into smaller steps and focus on one thing at a time. It's also helpful to talk to someone you trust, like a friend, family member, or counselor. If you're consistently feeling overwhelmed, reaching out for professional support can make a huge difference.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">How do I know if I need to see a counselor or therapist?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  If you're feeling consistently sad, anxious, or hopeless, or if you find it hard to function day-to-day (whether academically, socially, or emotionally), speaking with a counselor can help. Therapy is not just for crises - it's for anyone who wants to explore and improve their mental health. It's okay to ask for help when you need it.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">Is it normal to feel anxious before an exam or presentation?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Yes, it's completely normal to feel anxious or nervous before important events. A little anxiety can be motivating and help you focus. However, if your anxiety becomes overwhelming or interferes with your ability to prepare, it's important to practice stress-relief techniques, like deep breathing, or seek additional support from a counselor.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">How can I balance school, social life, and self-care without feeling burned out?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Time management is key. Create a balanced schedule that includes study time, social activities, and self-care. Prioritize your tasks and set boundaries to protect your time. Don't hesitate to say "no" when necessary to avoid over-committing. Remember that self-care isn't selfish - it's essential for maintaining long-term productivity and well-being.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">How can I support a friend who is struggling with their mental health?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Be a good listener and offer your support without judgment. Encourage them to reach out for professional help if they haven't already. Sometimes, just being there for them and letting them know they're not alone can make a big difference. However, it's important to remember that you aren't a therapist, and professional help may be needed if the situation worsens.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">Will my information be kept confidential if I talk to a counselor?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Yes, counselors are committed to keeping your information confidential. They can only share details if there's a risk of harm to you or others, but otherwise, everything you discuss will remain private. If you have concerns, feel free to ask your counselor about their confidentiality policy before starting the session.
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="faq-item">
+                          <button class="faq-question" onclick="toggleFAQ(this)">
+                              <div class="question-text">Can I still seek help if I don't have a mental health diagnosis?</div>
+                              <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+                          </button>
+                          <div class="faq-answer">
+                              <div class="faq-answer-content">
+                                  Absolutely! You don't need a diagnosis to benefit from mental health support. Therapy and counseling are valuable for anyone looking to improve their mental well-being, whether you're dealing with a specific issue or simply want to manage stress, build resilience, or work on personal growth.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="contact-form glass-card">
+                <h3>Send us a message</h3>
+                <form>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      class="glass-input"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      class="glass-input"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      placeholder="Your Message"
+                      class="glass-input"
+                      rows="4"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="glass-button primary-btn">
+                    <span>Send Message</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Navigation Pills -->
+      <nav class="nav-pills">
+        <div class="nav-pill active" data-page="1">
+          <span class="nav-dot"></span>
+          <span class="nav-label">Home</span>
+        </div>
+        <div class="nav-pill" data-page="2">
+          <span class="nav-dot"></span>
+          <span class="nav-label">Learn</span>
+        </div>
+        <div class="nav-pill" data-page="3">
+          <span class="nav-dot"></span>
+          <span class="nav-label">Tools</span>
+        </div>
+        <div class="nav-pill" data-page="4">
+          <span class="nav-dot"></span>
+          <span class="nav-label">Chat</span>
+        </div>
+        <div class="nav-pill" data-page="5">
+          <span class="nav-dot"></span>
+          <span class="nav-label">FAQ's</span>
+        </div>
+      </nav>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/learn.js"></script>
+    <script src="./scripts/faqs.js"></script>
+    <script src="./scripts/tools.js"></script>
+    <script src="https://kit.fontawesome.com/69fd6beb52.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/06/21/02/20250621021143-WTJ4VGAE.js"></script>
+  </body>
+</html>
