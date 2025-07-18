@@ -4,10 +4,6 @@
     gap: 2rem;
 }
 
-#page-5 .resource-section {
-    height: 80vh;
-}
-
 .faq-item {
   margin-bottom: 1rem;
   background: rgba(255, 255, 255, 0.7);
@@ -19,6 +15,17 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  #page-5 .page-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.faqs {
+  height: 50%;
 }
 
 .faq-item:hover {
