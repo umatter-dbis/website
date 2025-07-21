@@ -64,20 +64,40 @@
 
 @media (min-width: 600px) {
   .card {
-    width: 140px;
-    height: 200px;
+    width: 35vw;
+    height: 50vh;
   }
   .card img {
-    height: 130px;
+    height: 80%;
+  }
+}
+
+@media (min-width: 300px) {
+  .card {
+    width: 35vw;
+    height: 50vh;
+  }
+  .card img {
+    height: 80%;
+  }
+}
+
+@media (min-width: 150px) {
+  .card {
+    width: 45vw;
+    height: 50vh;
+  }
+  .card img {
+    height: 80%;
   }
 }
 
 @media (min-width: 900px) {
   .card {
-    width: 160px;
-    height: 230px;
+    width: 25vw;
+    height: 50vh;
   }
   .card img {
-    height: 160px;
+    height: 80%;
   }
 }

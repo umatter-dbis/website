@@ -930,6 +930,10 @@ body {
     font-size: 0.8rem;
   }
 
+  .page {
+    margin-left: 0vw;
+  }
+
   .nav-label {
     display: none;
   }
