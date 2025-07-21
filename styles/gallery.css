@@ -51,7 +51,7 @@
 .card .title {
   padding: 8px 12px 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   text-align: center;
   min-height: 40px;
 }
