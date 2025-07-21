@@ -326,33 +326,12 @@ function initializeFormHandling() {
   if (!form) return;
 
   form.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    // Get form data
-    const formData = new FormData(this);
-    const name = this.querySelector('input[type="text"]').value;
-    const email = this.querySelector('input[type="email"]').value;
-    const message = this.querySelector("textarea").value;
-
-    // Validate form
-    if (!name || !email || !message) {
-      showNotification("Please fill in all fields", "error");
-      return;
-    }
-
     // Simulate form submission
     const submitBtn = this.querySelector(".glass-button");
     const originalText = submitBtn.querySelector("span").textContent;
 
     submitBtn.querySelector("span").textContent = "Sending...";
     submitBtn.disabled = true;
-
-    setTimeout(() => {
-      submitBtn.querySelector("span").textContent = originalText;
-      submitBtn.disabled = false;
-      showNotification("Feedback system will be available soon!", "failed");
-      this.reset();
-    }, 2000);
   });
 }
 

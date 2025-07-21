@@ -492,18 +492,13 @@
 
               <div class="contact-form glass-card">
                 <h3>Send us a message</h3>
-                <form>
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      class="glass-input"
-                    />
-                  </div>
+                <form action="https://formspree.io/f/xnnzjadp"
+  method="POST">
                   <div class="form-group">
                     <input
                       type="email"
                       placeholder="Your Email"
+                      name="email"
                       class="glass-input"
                     />
                   </div>
@@ -512,6 +507,7 @@
                       placeholder="Your Message"
                       class="glass-input"
                       rows="4"
+                      name="message"
                     ></textarea>
                   </div>
                   <button type="submit" class="glass-button primary-btn">
