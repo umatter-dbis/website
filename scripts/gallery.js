@@ -103,7 +103,7 @@
 
   function animate() {
     if (autoRotate && !isDragging) {
-      currentRotation = (currentRotation + 0.1) % 360;
+      currentRotation = (currentRotation + 0.2) % 360;
       layoutCards();
     }
     requestAnimationFrame(animate);
@@ -123,8 +123,8 @@
   function onPointerMove(e) {
     if (!isDragging) return;
     const currentX = e.clientX || e.touches[0].clientX;
-    const deltaX = currentX + startX;
-    currentRotation = (startRotation - deltaX * 0.3 + 360) % 360;
+    const deltaX = currentX - startX;
+    currentRotation = (startRotation + deltaX * 0.3 + 360) % 360;
     layoutCards();
   }
 
