@@ -553,7 +553,7 @@ body {
   background: rgba(212, 175, 55, 0.2);
   border: 1px solid rgba(212, 175, 55, 0.4);
   color: #b8860b;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 1vw, 1.5rem);
   padding: 1.5rem;
 }
 
@@ -583,16 +583,16 @@ body {
 }
 
 .hero-title img {
-  width: 9vw;
+  width: 8vw;
   max-width: 130px;
-  height: 10vw;
+  height: 9vw;
   max-height: 130px;
-  margin-bottom: clamp(2px, 2.5vw, 1vh);
+  margin-bottom: clamp(2px, 1vw, 1vh);
   margin-right: 1rem;
 }
 
 .salus-text {
-  font-size: clamp(2rem, 12vw, 10rem);
+  font-size: clamp(3rem, 10vw, 10rem);
   font-weight: 600;
   color: #1e6091;
   animation: fadeInUp 1s ease 0.5s both;
