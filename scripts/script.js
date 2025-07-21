@@ -132,13 +132,15 @@ function handleTouchEnd(e) {
   const deltaY = touchStartY - touchEndY;
 
   // Horizontal swipe detection
-  if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+  if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 200) {
     if (deltaX > 0 && currentPage < 5) {
       navigateToPage(currentPage + 1);
     } else if (deltaX < 0 && currentPage > 1) {
       navigateToPage(currentPage - 1);
     }
 
+    console.log(deltaX);
+    
     // ✅ Force re-apply transform to ensure snapping on mobile
     setTimeout(() => {
       const translateX = (currentPage - 1) * -100;
