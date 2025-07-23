@@ -17,6 +17,12 @@ body {
   line-height: 1.6;
 }
 
+.counterimg {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
 .logo-container {
   position: fixed;
   display: flex;
