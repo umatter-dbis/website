@@ -3,49 +3,49 @@
 
   const baseItems = [
     {
-      src: "../img1.png",
+      src: "../media/img1.png",
       alt: "Children making toys together",
       title: "Creative Toy-Making Activity",
       caption: "Fostering focus and teamwork",
     },
     {
-      src: "../img2.png",
+      src: "../media/img2.png",
       alt: "Tree artwork with colorful leaves",
       title: "Tree of Emotions",
       caption: "Drawing feelings and roots",
     },
     {
-      src: "../img3.png",
+      src: "../media/img3.png",
       alt: "Student coloring a mandala",
       title: "Mandala Mindfulness Art",
       caption: "Calm through creative focus",
     },
     {
-      src: "../img4.png",
+      src: "../media/img4.png",
       alt: "Children using puppets to act",
       title: "Puppet-Based Expression",
       caption: "Emotions through role-play",
     },
     {
-      src: "../img5.png",
+      src: "../media/img5.png",
       alt: "Kids moving with colorful ribbons",
       title: "Joyful Movement Circle",
       caption: "Connecting through playful motion",
     },
     {
-      src: "../img6.png",
+      src: "../media/img6.png",
       alt: "Child playing with sand tray",
       title: "Therapeutic Sand Tray Play",
       caption: "Exploring worlds with imagination",
     },
     {
-      src: "../img7.png",
+      src: "../media/img7.png",
       alt: "Children dancing together in class",
       title: "Expressive Movement Session",
       caption: "Energizing minds through dance",
     },
     {
-      src: "../img8.png",
+      src: "../media/img8.png",
       alt: "Poster of classroom rules or values",
       title: "Classroom Kindness Pledge",
       caption: "Promoting fairness and empathy",
