@@ -588,14 +588,16 @@ body {
 }
 
 .hero-title img {
-  width: clamp(3rem, 10vw, 7rem);
-  height: clamp(3rem, 8vw, 7rem);
-  margin-bottom: clamp(1.25vh, 15vw, 1.5vh);
+  width: 8vw;
+  max-width: 130px;
+  height: 9vw;
+  max-height: 130px;
+  margin-bottom: clamp(2px, 1vw, 1vh);
   margin-right: 1rem;
 }
 
 .salus-text {
-  font-size: clamp(3rem, 15vw, 7.5rem);
+  font-size: clamp(3rem, 10vw, 10rem);
   font-weight: 600;
   color: #1e6091;
   animation: fadeInUp 1s ease 0.5s both;
@@ -714,7 +716,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: clamp(0.75rem, 2.5vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 2rem);
   font-weight: 600;
   color: #666;
   margin-bottom: 2rem;
@@ -724,7 +726,7 @@ body {
 .hero-description {
   max-width: 600px;
   margin: 0 auto 3rem;
-  font-size: clamp(0.75rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   color: #777;
   animation: fadeInUp 1s ease 1s both;
 }
@@ -918,10 +920,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hero-description {
-    font-size: 1.1rem;
-  }
-
   .nav-pills {
     bottom: 1rem;
     padding: 0.8rem 1rem;
@@ -934,7 +932,7 @@ body {
   }
 
   .page {
-    margin-left: 5vw;
+    margin-left: 4vw;
   }
 
   #page-1 {
@@ -958,14 +956,6 @@ body {
     padding: 2rem;
   }
 
-  .section-title {
-    font-size: 2.5rem;
-  }
-
-  .hero-title {
-    font-size: 4rem;
-  }
-
   .contact-item {
     padding: 1rem;
   }
@@ -980,16 +970,9 @@ body {
 }
 
 @media (max-width: 480px) {
-  .hero-title {
-    font-size: 3rem;
-  }
 
   .page {
     margin-right: 10vw;
-  }
-
-  .section-title {
-    font-size: 2rem;
   }
 
   .loading-content {
