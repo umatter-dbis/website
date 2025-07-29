@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/tools.css" />
     <link rel="stylesheet" href="./styles/faqs.css" />
     <link rel="stylesheet" href="./styles/gallery.css" />
+    <link rel="stylesheet" href="./styles/disclaimer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -27,8 +28,10 @@
   </script>
   
   <body>
+    <!-- Visitor counter -->
     <a href="https://www.andyhoppe.com/" title="Counter"><img 
   src="//c.andyhoppe.com/1753295034" class="counterimg" style="border:none" alt="Counter" /></a>
+
     <!-- Loading Screen -->
     <div id="loading-screen" class="loading-screen">
       <div class="loading-content">
@@ -41,6 +44,43 @@
         </p>
         <div class="loading-spinner"></div>
       </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div id="disclaimerModal" class="disclaimer-modal-overlay scrollable">
+        <div class="disclaimer-modal">
+            <div class="disclaimer-modal-header">
+                <h2 class="disclaimer-modal-title">
+                    <svg class="disclaimer-warning-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/>
+                    </svg>
+                    Important Disclaimer
+                </h2>
+            </div>
+            
+            <div class="disclaimer-modal-content">
+                <p class="disclaimer-text">
+                    Before proceeding to use this website, please read and acknowledge the following important information:
+                </p>
+                
+                <ul class="disclaimer-list">
+                    <li>The information provided on this website is for general informational purposes only</li>
+                    <li>We make no representations or warranties of any kind, express or implied</li>
+                    <li>Your use of this website is at your own risk and discretion</li>
+                    <li>We are not liable for any losses or damages in connection with your use of this site</li>
+                    <li>By continuing, you agree to our terms of service and privacy policy</li>
+                </ul>
+                
+                <p class="disclaimer-text">
+                    <strong>By clicking "I Accept", you acknowledge that you have read, understood, and agree to be bound by these terms.</strong>
+                </p>
+            </div>
+            
+            <div class="disclaimer-modal-footer">
+                <button class="disclaimer-btn disclaimer-btn-decline" onclick="declineDisclaimer()">Decline</button>
+                <button class="disclaimer-btn disclaimer-btn-accept" onclick="acceptDisclaimer()">Accept</button>
+            </div>
+        </div>
     </div>
 
     <!-- Main Container -->
@@ -578,6 +618,7 @@
     <script src="./scripts/faqs.js"></script>
     <script src="./scripts/tools.js"></script>
     <script src="./scripts/gallery.js"></script>
+    <script src="./scripts/disclaimer.js"></script>
     <script src="https://kit.fontawesome.com/69fd6beb52.js" crossorigin="anonymous"></script>
     <script src="https://cdn.botpress.cloud/webchat/v3.0/inject.js"></script>
 <script src="https://files.bpcontent.cloud/2025/06/21/02/20250621021143-WTJ4VGAE.js"></script>

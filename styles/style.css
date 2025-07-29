@@ -324,6 +324,7 @@ body {
   border-radius: 10px;
   backdrop-filter: blur(10px);
 }
+
 .content-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

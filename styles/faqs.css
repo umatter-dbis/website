@@ -173,7 +173,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin-top: 2rem;
-  overflow-y: scroll;
 }
 
 .contact-info {
@@ -219,8 +218,24 @@
 }
 
 .contact-form {
+  overflow-y: auto;
+  padding-right: 10px;
   padding: 2.5rem;
-  overflow-y: scroll;
+}
+
+.contact-form::-webkit-scrollbar {
+  width: 6px;
+}
+
+.contact-form::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.contact-form::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.5);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .contact-form h3 {
