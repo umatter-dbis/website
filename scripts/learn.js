@@ -273,6 +273,123 @@ const cardData = {
         <p>Remember, overcoming social anxiety is a journey, not a destination. With patience, practice, and the right strategies, you can build genuine confidence and enjoy more fulfilling social connections.</p>
       `,
   },
+  "myths-facts": {
+    title: "Myths vs Facts about Mental Health",
+    content: `
+        <div class="resource-items">
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Mental health problems are a sign of weakness</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Mental health challenges are common and can affect individuals from all backgrounds. They do not reflect personal strength or character. Seeking support when needed demonstrates self-awareness and responsibility, and is a positive and proactive step toward well-being.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Only people with serious mental illnesses need therapy</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Therapy is a valuable resource for individuals seeking to enhance their well-being, manage stress, or navigate life's challenges, regardless of the presence of a serious mental health condition.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Talking about mental health will make things worse</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Discussing mental health openly can foster a supportive and understanding environment. Open conversations can also help reduce stigma and promote the development of effective coping strategies.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Therapy is just for talking about problems - it doesn't help with practical solutions</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Therapy offers a supportive environment to explore emotions while also providing valuable tools, coping strategies, and skills to effectively manage various life challenges.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: People with mental health issues are violent or dangerous</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                The vast majority of individuals with mental health conditions are not violent. In fact, they are more likely to be victims of violence than perpetrators. Mental health conditions do not define a person's identity, character, or behavior.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Mental health problems are rare and don't affect most people</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Approximately one in four individuals will experience a mental health concern at some point in their lives.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Mental health issues disappear if one learns to ignore them</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Mental health issues often become more challenging health problems. Addressing them early with professional support can prevent them from worsening.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Therapy is only necessary for individuals with a "serious" mental health condition</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Seeking therapy can be beneficial for individuals facing various challenges, including stress management, academic pressures, relationship concerns, difficulty expressing difficult emotions and personal development.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Medication is the sole solution for mental health issues</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                While medication can be beneficial for some individuals, therapy, lifestyle modifications, and self-care strategies are also important components of effective mental health management. Many individuals find that a combination of approaches yields the best results.
+            </div>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleFAQ(this)">
+            <div class="question-text">Myth: Individuals with mental health issues can never recover</div>
+            <div class="faq-icon"><i class="fa-solid fa-caret-down"></i></div>
+        </button>
+        <div class="faq-answer">
+            <div class="faq-answer-content">
+                Individuals with mental health challenges recover and lead fulfilling lives. Seeking therapy, medical treatment, self-care, and support at the right time can significantly enhance recovery and long-term well-being.
+            </div>
+        </div>
+    </div>
+</div>
+      `,
+  },
 };
 
 // Initialize modal functionality

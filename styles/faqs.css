@@ -1,6 +1,7 @@
 #page-5 .page-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -15,6 +16,41 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
+}
+
+.emergency-contact .resource-title {
+  position: relative;
+}
+
+.faqs {
+  grid-row: 1 / span 5;
+}
+
+.emergency-contact {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  height: 100%;
+}
+
+.contact-form {
+  grid-column: 2;
+  grid-row: 3 / span 3;
+  height: 100%;
+}
+
+.emergency-contact h3 {
+  font-size: 1.5rem;
+}
+
+.emergency-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
 }
 
 @media (max-width: 768px) {
@@ -141,17 +177,28 @@
 
   #page-5 .page-content {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 80vh 40vh 30vh;
     gap: 1.5rem;
+    overflow-y: scroll;
+    height: 100%;
+    padding-left: 2rem;
   }
 
-  #page-5 .resource-section {
+  #page-5 .resource-title {
+    position: relative;
+  }
+
+  .faqs {
     height: 80vh;
     grid-row: 1;
   }
 
   .contact-form {
     grid-row: 2;
+  }
+
+  .emergency-contact {
+    grid-row: 3;
   }
 }
 
@@ -172,7 +219,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  margin-top: 2rem;
 }
 
 .contact-info {
