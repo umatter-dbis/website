@@ -175,8 +175,8 @@ body {
 }
 
 .blob-1 {
-  width: 300px;
-  height: 300px;
+  width: 25vw;
+  height: 25vh;
   background: linear-gradient(45deg, #d4af37, #b8860b);
   top: 10%;
   left: 10%;
@@ -184,26 +184,26 @@ body {
 }
 
 .blob-2 {
-  width: 250px;
-  height: 250px;
+  width: 10vw;
+  height: 30vh;
   background: linear-gradient(45deg, #1e6091, #4682b4);
   top: 60%;
   right: 15%;
-  animation-delay: -5s;
+  animation-delay: -2s;
 }
 
 .blob-3 {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(45deg, #4682b4, #87ceeb);
+  width: 35vw;
+  height: 30vh;
+  background: linear-gradient(45deg, #4682b4, #3e94b6);
   bottom: 20%;
   left: 20%;
   animation-delay: -10s;
 }
 
 .blob-4 {
-  width: 180px;
-  height: 180px;
+  width: 30vw;
+  height: 15vh;
   background: linear-gradient(45deg, #f4e99b, #d4af37);
   top: 30%;
   right: 40%;
@@ -211,8 +211,8 @@ body {
 }
 
 .blob-5 {
-  width: 220px;
-  height: 220px;
+  width: 25vw;
+  height: 30vh;
   background: linear-gradient(45deg, #ffd700, #fff8dc);
   bottom: 40%;
   right: 10%;
@@ -220,12 +220,12 @@ body {
 }
 
 .blob-6 {
-  width: 320px;
-  height: 320px;
+  width: 30vw;
+  height: 50vh;
   background: linear-gradient(45deg, #4682b4, #87ceeb);
   top: 20%;
   right: 20%;
-  animation-delay: -10s;
+  animation-delay: -1s;
 }
 
 @keyframes float {
