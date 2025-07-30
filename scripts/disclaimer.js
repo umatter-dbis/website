@@ -17,7 +17,7 @@
   window.declineDisclaimer = function () {
     if (
       confirm(
-        "You have declined our terms. You will be redirected away from this site."
+        "You have declined our terms. You will be redirected away from this site to https://dbis.in."
       )
     ) {
       window.location.href = "https://dbis.in";
