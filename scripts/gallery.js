@@ -5,7 +5,7 @@
     {
       src: "../media/img1.png",
       alt: "Children making toys together",
-      title: "Creative Toy-Making Activity",
+      title: "Non-verbal Expression",
       caption: "Fostering focus and teamwork",
     },
     {
@@ -23,7 +23,7 @@
     {
       src: "../media/img4.png",
       alt: "Children using puppets to act",
-      title: "Puppet-Based Expression",
+      title: "Narrative Therapy",
       caption: "Emotions through role-play",
     },
     {
