@@ -52,7 +52,6 @@
     },
   ];
 
-
   const items = [...baseItems, ...baseItems];
   let cards = [];
   let currentRotation = 0;
