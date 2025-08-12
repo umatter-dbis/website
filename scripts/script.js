@@ -85,14 +85,14 @@ function handleWheelScroll(e) {
 
     if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
       // Horizontal scroll
-      if (e.deltaX > 0 && currentPage < 5) {
+      if (e.deltaX > 0 && currentPage < 6) {
         navigateToPage(currentPage + 1);
       } else if (e.deltaX < 0 && currentPage > 1) {
         navigateToPage(currentPage - 1);
       }
     } else {
       // Vertical scroll converted to horizontal
-      if (e.deltaY > 0 && currentPage < 5) {
+      if (e.deltaY > 0 && currentPage < 6) {
         navigateToPage(currentPage + 1);
       } else if (e.deltaY < 0 && currentPage > 1) {
         navigateToPage(currentPage - 1);
@@ -133,7 +133,7 @@ function handleTouchEnd(e) {
 
   // Horizontal swipe detection
   if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 200) {
-    if (deltaX > 0 && currentPage < 5) {
+    if (deltaX > 0 && currentPage < 6) {
       navigateToPage(currentPage + 1);
     } else if (deltaX < 0 && currentPage > 1) {
       navigateToPage(currentPage - 1);
@@ -164,7 +164,7 @@ function handleKeyNavigation(e) {
       }
       break;
     case "ArrowRight":
-      if (currentPage < 5) {
+      if (currentPage < 6) {
         e.preventDefault();
         navigateToPage(currentPage + 1);
       }
@@ -175,7 +175,7 @@ function handleKeyNavigation(e) {
       break;
     case "End":
       e.preventDefault();
-      navigateToPage(5);
+      navigateToPage(6);
       break;
   }
 }

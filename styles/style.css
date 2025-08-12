@@ -268,7 +268,7 @@ body {
 /* Horizontal Container */
 .horizontal-container {
   display: flex;
-  width: 500vw;
+  width: 600vw;
   height: 100vh;
   transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   z-index: 2;
@@ -300,7 +300,7 @@ body {
   overflow-x: hidden;
 }
 
-.page-2-content {
+.page-3-content {
   width: 100%;
   height: 100%;
 }
@@ -768,7 +768,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
 }
 
 .card-icon {
@@ -915,7 +914,7 @@ body {
     gap: 2rem;
   }
 
-  .page-2-content {
+  .page-3-content {
     padding-top: 25%;
   }
 }
@@ -930,10 +929,6 @@ body {
   .nav-pill {
     padding: 0.6rem 1rem;
     font-size: 0.8rem;
-  }
-
-  .page {
-    margin-left: 4vw;
   }
 
   #page-1 {
@@ -968,10 +963,13 @@ body {
   .glass-card {
     padding: 1.5rem;
   }
+
+  .content-grid {
+    margin-top: 10rem;
+  }
 }
 
 @media (max-width: 480px) {
-
   .page {
     margin-right: 10vw;
   }
@@ -983,6 +981,7 @@ body {
   .content-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin-top: 70rem;
   }
 
   .glass-card {
@@ -1146,7 +1145,7 @@ body {
   display: none;
 }
 
-#page-4 .page-content {
+#page-5 .page-content {
   display: flex;
   align-items: center;
   justify-content: center;

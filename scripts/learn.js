@@ -33,8 +33,6 @@ const cardData = {
         
         <h4>Day 7: Integration and Planning</h4>
         <p>Combine all the techniques you've learned and create a personalized stress management plan for ongoing success.</p>
-        
-        <p>Each day includes guided exercises, reflection prompts, and practical tips you can implement immediately. By the end of this challenge, you'll have a toolkit of proven strategies to manage stress effectively.</p>
       `,
   },
   "self-care": {
@@ -664,7 +662,7 @@ function openCardModal(cardType) {
   const modalTitle = document.getElementById("modal-title");
   const modalContent = document.getElementById("modal-content");
   const page =
-    document.getElementById("page-2") || document.querySelector(".page");
+    document.getElementById("page-3") || document.querySelector(".page");
 
   if (!modalOverlay || !modalTitle || !modalContent) return;
 
@@ -691,7 +689,7 @@ function openCardModal(cardType) {
 function closeCardModal() {
   const modalOverlay = document.getElementById("card-modal-overlay");
   const page =
-    document.getElementById("page-2") || document.querySelector(".page");
+    document.getElementById("page-3") || document.querySelector(".page");
 
   if (!modalOverlay) return;
 
