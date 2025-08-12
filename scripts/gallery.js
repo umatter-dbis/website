@@ -11,19 +11,19 @@
     {
       src: "../media/img2.png",
       alt: "Tree artwork with colorful leaves",
-      title: "Tree of Emotions",
+      title: "Tree of Life",
       caption: "Drawing feelings and roots",
     },
     {
       src: "../media/img3.png",
       alt: "Student coloring a mandala",
-      title: "Mandala Mindfulness Art",
+      title: "Mindfulness",
       caption: "Calm through creative focus",
     },
     {
       src: "../media/img4.png",
       alt: "Children using puppets to act",
-      title: "Narrative Therapy",
+      title: "Storytelling",
       caption: "Emotions through role-play",
     },
     {
@@ -35,7 +35,7 @@
     {
       src: "../media/img6.png",
       alt: "Child playing with sand tray",
-      title: "Therapeutic Sand Tray Play",
+      title: "Sand Play",
       caption: "Exploring worlds with imagination",
     },
     {
@@ -47,7 +47,7 @@
     {
       src: "../media/img8.png",
       alt: "Poster of classroom rules or values",
-      title: "Classroom Kindness Pledge",
+      title: "Kindness Pledge",
       caption: "Promoting fairness and empathy",
     },
   ];
