@@ -43,7 +43,7 @@ const cardData = {
         
         <h4>The Four Pillars of Self-Care</h4>
         
-        <h4>1. Physical Self-Care</h4>
+        <h4>1. Physical</h4>
         <ul>
           <li>Nutrition and hydration strategies</li>
           <li>Sleep hygiene and rest</li>
@@ -51,7 +51,7 @@ const cardData = {
           <li>Regular health check-ups</li>
         </ul>
         
-        <h4>2. Emotional Self-Care</h4>
+        <h4>2. Emotional</h4>
         <ul>
           <li>Emotional awareness and regulation</li>
           <li>Journaling and self-reflection</li>
@@ -59,7 +59,7 @@ const cardData = {
           <li>Seeking support when needed</li>
         </ul>
         
-        <h4>3. Mental Self-Care</h4>
+        <h4>3. Mental</h4>
         <ul>
           <li>Continuous learning and growth</li>
           <li>Mindfulness and meditation practices</li>
@@ -67,7 +67,7 @@ const cardData = {
           <li>Mental stimulation and challenge</li>
         </ul>
         
-        <h4>4. Social Self-Care</h4>
+        <h4>4. Social</h4>
         <ul>
           <li>Nurturing meaningful relationships</li>
           <li>Community involvement</li>
@@ -206,6 +206,7 @@ const cardData = {
           <li>Emotional symptoms: intense fear, worry, self-consciousness</li>
           <li>Behavioral symptoms: avoidance, seeking reassurance, difficulty speaking</li>
           <li>Cognitive symptoms: negative self-talk, catastrophic thinking</li>
+          <li>etc...</li>
         </ul>
         
         <h4>Cognitive Strategies</h4>
