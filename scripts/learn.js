@@ -8,15 +8,16 @@ const cardData = {
         <h4>Welcome to Your 7-Day Journey</h4>
         <p>This comprehensive challenge is designed to help you develop sustainable stress management techniques that you can integrate into your daily life. Each day focuses on a different aspect of stress relief, building upon the previous day's learnings.</p>
 
-        <p>Please feel free to use the following link to learn more about the same: <a href="https://www.mindful.org/how-to-manage-stress-with-mindfulness-and-meditation/" target="_blank" rel="noopener noreferrer">How to Manage Stress with Mindfulness and Meditation</a>
-</p>
+        <p>Please feel free to use the following link to learn more about the same:
+        </p>
+        <a style="color: blue;" href="https://www.mindful.org/how-to-manage-stress-with-mindfulness-and-meditation/" target="_blank" rel="noopener noreferrer">How to Manage Stress with Mindfulness and Meditation</a>
         
         <h4>Day 1: Mindful Breathing</h4>
         <p>Learn the foundation of stress relief through proper breathing techniques. We'll explore diaphragmatic breathing, the 4-7-8 technique, and how to use breath as an anchor during stressful moments.</p>
         <ul>
-          <li>Morning breathing exercise routine</li>
-          <li>Midday stress-relief breathing breaks</li>
-          <li>Evening wind-down breathing session</li>
+          <li>- Morning breathing exercise routine</li>
+          <li>- Midday stress-relief breathing breaks</li>
+          <li>- Evening wind-down breathing session</li>
         </ul>
         
         <h4>Day 2: Progressive Muscle Relaxation</h4>
@@ -35,7 +36,7 @@ const cardData = {
         <p>Understand the importance of social support in stress management and learn strategies for building meaningful connections.</p>
         
         <h4>Day 7: Integration and Planning</h4>
-        <p>Combine all the techniques you've learned and create a personalized stress management plan for ongoing success.</p>
+        <p>Combine all the techniques you've learned and create a personalized stress management plan.</p>
       `,
   },
   "self-care": {
@@ -48,44 +49,44 @@ const cardData = {
         
         <h4>1. Physical</h4>
         <ul>
-          <li>Nutrition and hydration strategies</li>
-          <li>Sleep hygiene and rest</li>
-          <li>Movement and exercise</li>
-          <li>Regular health check-ups</li>
+          <li>- Nutrition and hydration strategies</li>
+          <li>- Sleep hygiene and rest</li>
+          <li>- Movement and exercise</li>
+          <li>- Regular health check-ups</li>
         </ul>
         
         <h4>2. Emotional</h4>
         <ul>
-          <li>Emotional awareness and regulation</li>
-          <li>Journaling and self-reflection</li>
-          <li>Setting healthy boundaries</li>
-          <li>Seeking support when needed</li>
+          <li>- Emotional awareness and regulation</li>
+          <li>- Journaling and self-reflection</li>
+          <li>- Setting healthy boundaries</li>
+          <li>- Seeking support when needed</li>
         </ul>
         
         <h4>3. Mental</h4>
         <ul>
-          <li>Continuous learning and growth</li>
-          <li>Mindfulness and meditation practices</li>
-          <li>Creative expression and hobbies</li>
-          <li>Mental stimulation and challenge</li>
+          <li>- Continuous learning and growth</li>
+          <li>- Mindfulness and meditation practices</li>
+          <li>- Creative expression and hobbies</li>
+          <li>- Mental stimulation and challenge</li>
         </ul>
         
         <h4>4. Social</h4>
         <ul>
-          <li>Nurturing meaningful relationships</li>
-          <li>Community involvement</li>
-          <li>Balancing alone time with social time</li>
-          <li>Communication skills</li>
+          <li>- Nurturing meaningful relationships</li>
+          <li>- Community involvement</li>
+          <li>- Balancing alone time with social time</li>
+          <li>- Communication skills</li>
         </ul>
         
         <h4>Creating Your Personal Self-Care Plan</h4>
-        <p>We'll guide you through a step-by-step process to identify your specific needs, preferences, and constraints. You'll learn how to:</p>
+        <p>To identify your specific needs, preferences, and constraints, you must:</p>
         <ul>
-          <li>Assess your current self-care practices</li>
-          <li>Identify areas for improvement</li>
-          <li>Set realistic and achievable goals</li>
-          <li>Create daily, weekly, and monthly self-care rituals</li>
-          <li>Overcome common obstacles and barriers</li>
+          <li>- - Assess your current self-care practices</li>
+          <li>- - Identify areas for improvement</li>
+          <li>- - Set realistic and achievable goals</li>
+          <li>- - Create daily, weekly, and monthly self-care rituals</li>
+          <li>- - Overcome common obstacles and barriers</li>
         </ul>
         
         <p>Remember, self-care is not a one-size-fits-all approach. What works for others may not work for you, and that's perfectly okay. This guide will help you discover what truly nourishes your mind, body, and spirit.</p>
@@ -104,11 +105,11 @@ const cardData = {
         <h4>The Science Behind Growth Mindset</h4>
         <p>Research shows that individuals with a growth mindset are more likely to:</p>
         <ul>
-          <li>Embrace challenges instead of avoiding them</li>
-          <li>Persist in the face of setbacks</li>
-          <li>See effort as a path to mastery</li>
-          <li>Learn from criticism and feedback</li>
-          <li>Find inspiration in others' success</li>
+          <li>- Embrace challenges instead of avoiding them</li>
+          <li>- Persist in the face of setbacks</li>
+          <li>- See effort as a path to mastery</li>
+          <li>- Learn from criticism and feedback</li>
+          <li>- Find inspiration in others' success</li>
         </ul>
         
         <h4>Developing Your Growth Mindset</h4>
@@ -127,14 +128,12 @@ const cardData = {
         
         <h4>Practical Exercises</h4>
         <ul>
-          <li>Daily reflection and journaling prompts</li>
-          <li>Challenge-seeking activities</li>
-          <li>Failure reframing exercises</li>
-          <li>Goal-setting with a growth mindset approach</li>
-          <li>Building resilience through mindfulness</li>
+          <li>- Daily reflection and journaling prompts</li>
+          <li>- Challenge-seeking activities</li>
+          <li>- Failure reframing exercises</li>
+          <li>- Goal-setting with a growth mindset approach</li>
+          <li>- Building resilience through mindfulness</li>
         </ul>
-        
-        <p>By the end of this guide, you'll have a toolkit of strategies to maintain and strengthen your growth mindset, helping you approach life's challenges with confidence and curiosity.</p>
       `,
   },
   "time-management": {
@@ -148,19 +147,19 @@ const cardData = {
         <h4>1. Priority Matrix (Eisenhower Method)</h4>
         <p>Learn to categorize tasks based on urgency and importance:</p>
         <ul>
-          <li>Urgent & Important: Do first</li>
-          <li>Important but Not Urgent: Schedule</li>
-          <li>Urgent but Not Important: Delegate</li>
-          <li>Neither Urgent nor Important: Eliminate</li>
+          <li>- Urgent & Important: Do first</li>
+          <li>- Important but Not Urgent: Schedule</li>
+          <li>- Urgent but Not Important: Delegate</li>
+          <li>- Neither Urgent nor Important: Eliminate</li>
         </ul>
         
         <h4>2. Time Blocking</h4>
         <p>Discover how to allocate specific time slots for different activities, including:</p>
         <ul>
-          <li>Deep work sessions</li>
-          <li>Email and communication</li>
-          <li>Meetings and appointments</li>
-          <li>Personal time and breaks</li>
+          <li>- Deep work sessions</li>
+          <li>- Email and communication</li>
+          <li>- Meetings and appointments</li>
+          <li>- Personal time and breaks</li>
         </ul>
         
         <h4>3. The Pomodoro Technique</h4>
@@ -177,23 +176,20 @@ const cardData = {
         <h4>Digital Tools and Apps</h4>
         <p>Explore the best productivity apps and tools to support your time management system:</p>
         <ul>
-          <li>Task managers and to-do lists</li>
-          <li>Calendar applications</li>
-          <li>Time tracking tools</li>
-          <li>Focus and distraction-blocking apps</li>
+          <li>- Task managers and to-do lists</li>
+          <li>- Calendar applications</li>
+          <li>- Time tracking tools</li>
+          <li>- Focus and distraction-blocking apps</li>
         </ul>
         
         <h4>Overcoming Common Obstacles</h4>
         <ul>
-          <li>Procrastination strategies</li>
-          <li>Dealing with interruptions</li>
-          <li>Managing perfectionism</li>
-          <li>Saying no effectively</li>
-          <li>Handling unexpected urgent tasks</li>
+          <li>- Procrastination strategies</li>
+          <li>- Dealing with interruptions</li>
+          <li>- Managing perfectionism</li>
+          <li>- Saying no effectively</li>
+          <li>- Handling unexpected urgent tasks</li>
         </ul>
-        
-        <h4>Creating Your Personal System</h4>
-        <p>By the end of this toolkit, you'll have a personalized time management system that fits your lifestyle, work demands, and personal goals. You'll learn to work smarter, not harder, and create more time for what truly matters to you.</p>
       `,
   },
   "social-anxiety": {
@@ -205,11 +201,11 @@ const cardData = {
         <h4>Recognizing Social Anxiety</h4>
         <p>Common symptoms include:</p>
         <ul>
-          <li>Physical symptoms: blushing, sweating, trembling, rapid heartbeat</li>
-          <li>Emotional symptoms: intense fear, worry, self-consciousness</li>
-          <li>Behavioral symptoms: avoidance, seeking reassurance, difficulty speaking</li>
-          <li>Cognitive symptoms: negative self-talk, catastrophic thinking</li>
-          <li>etc...</li>
+          <li>- Physical symptoms: blushing, sweating, trembling, rapid heartbeat</li>
+          <li>- Emotional symptoms: intense fear, worry, self-consciousness</li>
+          <li>- Behavioral symptoms: avoidance, seeking reassurance, difficulty speaking</li>
+          <li>- Cognitive symptoms: negative self-talk, catastrophic thinking</li>
+          <li>- etc...</li>
         </ul>
         
         <h4>Cognitive Strategies</h4>
@@ -217,10 +213,10 @@ const cardData = {
         <h4>1. Challenging Negative Thoughts</h4>
         <p>Learn to identify and question anxious thoughts:</p>
         <ul>
-          <li>Thought records and cognitive restructuring</li>
-          <li>Probability estimation exercises</li>
-          <li>Evidence for and against anxious predictions</li>
-          <li>Developing balanced, realistic thoughts</li>
+          <li>- Thought records and cognitive restructuring</li>
+          <li>- Probability estimation exercises</li>
+          <li>- Evidence for and against anxious predictions</li>
+          <li>- Developing balanced, realistic thoughts</li>
         </ul>
         
         <h4>2. Mindfulness and Acceptance</h4>
@@ -231,29 +227,29 @@ const cardData = {
         <h4>1. Gradual Exposure</h4>
         <p>Step-by-step approach to facing social fears:</p>
         <ul>
-          <li>Creating a fear hierarchy</li>
-          <li>Starting with less threatening situations</li>
-          <li>Gradual progression to more challenging scenarios</li>
-          <li>Building confidence through success experiences</li>
+          <li>- Creating a fear hierarchy</li>
+          <li>- Starting with less threatening situations</li>
+          <li>- Gradual progression to more challenging scenarios</li>
+          <li>- Building confidence through success experiences</li>
         </ul>
         
         <h4>2. Social Skills Training</h4>
         <p>Practical skills to improve your social interactions:</p>
         <ul>
-          <li>Conversation starters and maintenance</li>
-          <li>Active listening techniques</li>
-          <li>Non-verbal communication</li>
-          <li>Assertiveness training</li>
+          <li>- Conversation starters and maintenance</li>
+          <li>- Active listening techniques</li>
+          <li>- Non-verbal communication</li>
+          <li>- Assertiveness training</li>
         </ul>
         
         <h4>Physical Techniques</h4>
         
         <h4>1. Relaxation Methods</h4>
         <ul>
-          <li>Progressive muscle relaxation</li>
-          <li>Deep breathing exercises</li>
-          <li>Visualization techniques</li>
-          <li>Grounding exercises for panic moments</li>
+          <li>- Progressive muscle relaxation</li>
+          <li>- Deep breathing exercises</li>
+          <li>- Visualization techniques</li>
+          <li>- Grounding exercises for panic moments</li>
         </ul>
         
         <h4>Building Long-term Confidence</h4>
@@ -266,10 +262,10 @@ const cardData = {
         
         <h4>Lifestyle Factors</h4>
         <ul>
-          <li>Regular exercise and its anxiety-reducing benefits</li>
-          <li>Nutrition and its impact on mood and anxiety</li>
-          <li>Sleep hygiene for better emotional regulation</li>
-          <li>Limiting caffeine and alcohol</li>
+          <li>- Regular exercise and its anxiety-reducing benefits</li>
+          <li>- Nutrition and its impact on mood and anxiety</li>
+          <li>- Sleep hygiene for better emotional regulation</li>
+          <li>- Limiting caffeine and alcohol</li>
         </ul>
         
         <p>Remember, overcoming social anxiety is a journey, not a destination. With patience, practice, and the right strategies, you can build genuine confidence and enjoy more fulfilling social connections.</p>
