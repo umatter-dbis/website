@@ -103,7 +103,7 @@
   padding: 2rem;
   border-radius: 50% / 40%;
   z-index: 0;
-  font-size: clamp(10px, 1.5vw, 20px);
+  font-size: clamp(10px, 1.2vw, 20px);
 }
 
 .surrounding-oval {
@@ -114,14 +114,14 @@
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 50% / 40%;
   font-size: clamp(7px, 1vw, 18px);
 }
 
 .surrounding-oval.top {
   top: 15%;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
 }
 

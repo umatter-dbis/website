@@ -29,7 +29,7 @@
     {
       src: "../media/img5.png",
       alt: "Kids moving with colorful ribbons",
-      title: "Joyful Movement Circle",
+      title: "Nourishing Movement",
       caption: "Connecting through playful motion",
     },
     {
@@ -41,7 +41,7 @@
     {
       src: "../media/img7.png",
       alt: "Children dancing together in class",
-      title: "Expressive Movement Session",
+      title: "Expressive Movement",
       caption: "Energizing minds through dance",
     },
     {
