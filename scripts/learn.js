@@ -36,7 +36,7 @@ const cardData = {
       `,
   },
   "self-care": {
-    title: "Building a Personalized Self-care Routine",
+    title: "Self-care Routine",
     content: `
         <h4>Understanding Self-Care</h4>
         <p>Self-care isn't selfish—it's essential. This comprehensive guide will help you create a sustainable self-care routine that fits your lifestyle, preferences, and needs.</p>
