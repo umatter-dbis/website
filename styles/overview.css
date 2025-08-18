@@ -102,7 +102,7 @@
   text-align: center;
   padding: 2rem;
   border-radius: 50% / 40%;
-  z-index: 2;
+  z-index: 0;
   font-size: clamp(10px, 1.5vw, 20px);
 }
 
@@ -116,7 +116,7 @@
   color: white;
   padding: 2rem;
   border-radius: 50% / 40%;
-  font-size: clamp(10px, 1vw, 18px);
+  font-size: clamp(7px, 1vw, 18px);
 }
 
 .surrounding-oval.top {
@@ -208,19 +208,27 @@
   }
 
   .central-oval {
-    top: 43%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
+  .surrounding-oval {
+    padding: 1rem;
+  }
+
+  .diagram {
+    height: 50%;
+  }
+
   .surrounding-oval.top {
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .surrounding-oval.top-right {
-    top: 20%;
+    top: 15%;
     right: 2%;
   }
 
@@ -241,7 +249,7 @@
   }
 
   .surrounding-oval.top-left {
-    top: 17%;
-    left: 7%;
+    top: 15%;
+    left: 5%;
   }
 }
