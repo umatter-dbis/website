@@ -3,10 +3,13 @@
 // Card data with detailed content
 const cardData = {
   "stress-relief": {
-    title: "7 Day Stress Relief Challenge",
+    title: "7 Day Stress Relief",
     content: `
         <h4>Welcome to Your 7-Day Journey</h4>
         <p>This comprehensive challenge is designed to help you develop sustainable stress management techniques that you can integrate into your daily life. Each day focuses on a different aspect of stress relief, building upon the previous day's learnings.</p>
+
+        <p>Please feel free to use the following link to learn more about the same: <a href="https://www.mindful.org/how-to-manage-stress-with-mindfulness-and-meditation/" target="_blank" rel="noopener noreferrer">How to Manage Stress with Mindfulness and Meditation</a>
+</p>
         
         <h4>Day 1: Mindful Breathing</h4>
         <p>Learn the foundation of stress relief through proper breathing techniques. We'll explore diaphragmatic breathing, the 4-7-8 technique, and how to use breath as an anchor during stressful moments.</p>
