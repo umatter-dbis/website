@@ -28,18 +28,22 @@
 
 .emergency-contact {
   grid-column: 2;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 3;
   height: 100%;
 }
 
 .contact-form {
   grid-column: 2;
-  grid-row: 3 / span 3;
+  grid-row: 4 / span 2;
   height: 100%;
 }
 
 .emergency-contact h3 {
   font-size: 1.5rem;
+}
+
+.emergency-list > * {
+  padding-bottom: .5rem;
 }
 
 .emergency-contact {

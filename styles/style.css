@@ -590,15 +590,15 @@ body {
 
 .hero-title img {
   width: 8vw;
-  max-width: 130px;
+  max-width: 13vh;
   height: 9vw;
-  max-height: 130px;
+  max-height: 12vh;
   margin-bottom: clamp(2px, 1vw, 1vh);
   margin-right: 1rem;
 }
 
 .salus-text {
-  font-size: clamp(3rem, 10vw, 10rem);
+  font-size: clamp(3rem, 10vw, 15vh);
   font-weight: 600;
   color: #1e6091;
   animation: fadeInUp 1s ease 0.5s both;
@@ -717,7 +717,7 @@ body {
 }
 
 .hero-subtitle {
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(1rem, 2.5vw, 3.5vh);
   font-weight: 600;
   color: #666;
   margin-bottom: 2rem;
@@ -727,7 +727,7 @@ body {
 .hero-description {
   max-width: 600px;
   margin: 0 auto 3rem;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1rem, 2vw, 2vh);
   color: #777;
   animation: fadeInUp 1s ease 1s both;
 }
