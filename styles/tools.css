@@ -283,4 +283,8 @@
     width: 25vh;
     height: 25vh;
   }
+
+  .apps .resource-items {
+    grid-template-columns: 1fr;
+  }
 }
