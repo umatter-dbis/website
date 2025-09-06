@@ -21,7 +21,7 @@ function toggleFAQ(element) {
 
   allIcons.forEach((i) => {
     if (i !== icon) {
-      i.innerHTML = "<i class=\"fa-solid fa-caret-down\"></i>";
+      i.innerHTML = '<i class="fa-solid fa-caret-down"></i>';
     }
   });
 
@@ -30,7 +30,7 @@ function toggleFAQ(element) {
   answer.classList.toggle("active");
 
   if (answer.classList.contains("active")) {
-    icon.innerHTML = "<i class=\"fa-solid fa-caret-up\"></i>";
+    icon.innerHTML = '<i class="fa-solid fa-caret-up"></i>';
     // Smooth scroll to the question
     setTimeout(() => {
       element.scrollIntoView({
@@ -39,7 +39,7 @@ function toggleFAQ(element) {
       });
     }, 100);
   } else {
-    icon.innerHTML = "<i class=\"fa-solid fa-caret-down\"></i>";
+    icon.innerHTML = '<i class="fa-solid fa-caret-down"></i>';
   }
 }
 
@@ -81,3 +81,22 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
+
+// Email form submission
+function sendEmail() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  // Use name and email in the subject, message only in body
+  var subject = "Form submission from " + name;
+
+  var mailtoLink =
+    "mailto:umatter@dbis.in" +
+    "?subject=" +
+    encodeURIComponent(subject) +
+    "&body=" +
+    encodeURIComponent(message);
+
+  window.location.href = mailtoLink;
+}

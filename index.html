@@ -613,7 +613,7 @@
               </div>
               <div class="contact-form glass-card">
                 <h3>Send us a message</h3>
-                <form action="https://formspree.io/f/xnnzjadp"
+                <!-- <form action="https://formspree.io/f/xnnzjadp"
   method="POST">
                   <div class="form-group">
                     <input
@@ -634,8 +634,38 @@
                   <button type="submit" class="glass-button primary-btn">
                     <span>Send Message</span>
                   </button>
-                </form>
+                </form> -->
+                <form id="emailForm">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      id="name"
+                      name="name"
+                      class="glass-input"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      placeholder="Your Message"
+                      class="glass-input"
+                      rows="4"
+                      id="message"
+                      name="message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="glass-button primary-btn" onclick="sendEmail()">
+                    <span>Send Email</span>
+                  </button>
+                </form> 
+                <!-- <form action="mailto:umatter@dbis.in" id="contact-form glass-card">
+                  <input class="glass-input" type="text" name="name" placeholder="Your name" required />
+                  <input class="glass-input type="email" name="email" placeholder="Your email" required />
+                  <textarea class="glass-input" name="message" placeholder="Your message"></textarea>
+                  <button class="glass-button primary-btn" type="submit">Send</button>
+                </form> -->
               </div>
+
               <div class="emergency-contact resource-section">
                 <h3 class="resource-title">Helpline Numbers</h3>
                 <p>
