@@ -85,7 +85,6 @@ document.addEventListener("keydown", (e) => {
 // Email form submission
 function sendEmail() {
   var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
 
   // Use name and email in the subject, message only in body
