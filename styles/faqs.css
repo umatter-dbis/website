@@ -43,7 +43,14 @@
 }
 
 .emergency-list > * {
-  padding-bottom: .5rem;
+  margin: 2px;
+  background: linear-gradient(
+    135deg,
+    rgba(212, 175, 55, 0.493),
+    rgba(212, 175, 55, 0.05)
+  );
+  border-radius: 2vh;
+  padding: 1vh;
 }
 
 .emergency-contact {
